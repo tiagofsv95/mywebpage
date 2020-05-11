@@ -10,8 +10,9 @@ function About() {
       <Container>
         <h1>Sobre</h1>
         <p>
-          Meu nome é Tiago Felipe, tenho inúmeros apelidos, tenho 25 anos, sou
-          de Belo Horizonte - Minas Gerais uai.
+          Meu nome é Tiago Felipe, tenho inúmeros apelidos, entre eles Tiggs,
+          Tifé, Titi, Javas, entre outros. Tenho 25 anos, sou de Belo Horizonte
+          - Minas Gerais uai.
         </p>
         <p>
           Sou desenvolvedor full-stack, atualmente trabalho em desenvolvimento
