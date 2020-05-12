@@ -13,8 +13,12 @@
 
 <br/>
 
+<div align="center">
+
 ![Aplication Demo](demo/demo.gif)
 
+<div>
+  
 <br/>
 
 <p>Essa pagina foi uma maneira de testar e por em pratica conhecimentos adquiridos em React atraves dos ultimos meses. O objetivo foi fazer uma aplicação simples mas com um sentido e significado<p/>
