@@ -13,11 +13,7 @@
 
 <br/>
 
-<div align="center">
-
 ![Aplication Demo](demo/demo.gif)
-
-<div>
   
 <br/>
 
