@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Background from '../../components/Background';
+import Background from '../../components/ParticlesBackground';
 import { Container } from './styles';
 
 function About() {

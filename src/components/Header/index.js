@@ -1,7 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { BsFillHouseFill, BsPersonFill } from 'react-icons/bs';
+import {
+  BsFillHouseFill,
+  BsPersonFill,
+  BsFileEarmarkCode,
+} from 'react-icons/bs';
 import { IoLogoWhatsapp } from 'react-icons/io';
 
 import { Container, Content } from './styles';
@@ -22,6 +26,9 @@ export default function Header() {
           </Link>
           <Link to="/about">
             <BsPersonFill color="#fff" size={28} />
+          </Link>
+          <Link to="/projects">
+            <BsFileEarmarkCode color="#fff" size={28} />
           </Link>
         </nav>
 

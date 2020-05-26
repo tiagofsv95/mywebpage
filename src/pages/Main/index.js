@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import { isMobile } from 'react-device-detect';
 
 import { useTransition, animated, config } from 'react-spring';
 import Background from '../../components/Background';
+import ParticlesBackground from '../../components/ParticlesBackground';
 import { Container } from './styles';
 
 const emoji = [
@@ -32,7 +34,7 @@ function Main() {
 
   return (
     <>
-      <Background />
+      {isMobile ? <ParticlesBackground /> : <Background />}
       <Container>
         <h1>Olá,</h1>
         <h1>Meu nome é Tiago Felipe.</h1>

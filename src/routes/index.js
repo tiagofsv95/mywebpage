@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import Main from '../pages/Main';
 import About from '../pages/About';
+import Projects from '../pages/Projects';
 
 export default function Routes() {
   return (
@@ -10,6 +11,7 @@ export default function Routes() {
       <Route path="/" exact component={Main} />
 
       <Route path="/about" component={About} />
+      <Route path="/projects" component={Projects} />
     </Switch>
   );
 }
