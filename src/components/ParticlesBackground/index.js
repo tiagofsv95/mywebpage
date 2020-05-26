@@ -6,7 +6,7 @@ import Icons from '../../assets/icons/index';
 function ParticlesBackgroud() {
   return (
     <Particles
-      style={{ position: 'absolute' }}
+      style={{ position: 'absolute', width: '100vh', height: '100vh' }}
       params={{
         particles: {
           number: {
