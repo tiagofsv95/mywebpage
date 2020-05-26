@@ -96,7 +96,15 @@ function Projects() {
             <VerticalTimelineContent>
               <h1 className="vertical-timeline-element-title">Teknisa</h1>
 
-              <p>Meu segundo estágio e meu primeiro emprego.</p>
+              <p>
+                Meu segundo estágio e meu primeiro emprego. Consistia em atuar
+                no desenvolvimento do produto de ERP da empresa, convertendo
+                algumas coisas do antigo sistema delphi para web e incluido
+                algumas varias evoluções. Atraves de um framework interno, uma
+                estrutura em JSON monta uma tela pronta, com funções de controle
+                em JS, e o backend é utilizado em PHP que comunica com um banco
+                de dados Oracle.
+              </p>
             </VerticalTimelineContent>
           </VerticalTimelineElement>
 
